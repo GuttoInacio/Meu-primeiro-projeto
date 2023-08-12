@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: pink;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+
+
+}
+
+h1 {
+    font-size: 44px;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #df14c4, -2px 0px 0 #db2bc4, 0px -2px 0 #db3fb9;
+}
+
+.titulo {
+    color: pink;
+}
+
+.cabecalho {
+    color: pink;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.escrita1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    overflow-x: hidden !important;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    background: rgb(236, 236, 236);
+    background: linear-gradient(270deg, rgba(236, 236, 236, 1) 1%, rgb(219, 151, 190) 67%);
+    overflow: scroll;
+}
+
+.conteudo {
+    flex-direction: column;
+    justify-content: flex-start;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    gap: 100px;
+}
+
+#foto1 {
+    width: 500px;
+    object-fit: cover;
+    height: 700px;
+    border-radius: 30px;
+    box-shadow: 10px 15px 10px 0px rgba(255, 0, 221, 0.2);
+}
+
+#foto {
+    width: 500px;
+    filter: drop-shadow(10px 15px 10px rgba(235, 102, 175, 0.788));
+
+}
+
+.titulo2 {
+    color: rgb(236, 6, 179);
+    font-size: 110px;
+    transition: all 1s;
+
+}
+
+.titulo2:hover {
+    scale: 1.1;
+}
+
+
+.conteudo section {
+
+    display: flex;
+    align-items: center;
+
+}
